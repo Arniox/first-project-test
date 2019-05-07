@@ -2,7 +2,41 @@
 	"interactionModel": {
 		"languageModel": {
 			"invocationName": "my test app",
-			"types": [],
+			"types": [
+				{
+					"name": "GameTypeInput",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "adventure",
+								"synonyms": [
+									"rpg"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "mystery",
+								"synonyms": [
+									"escape room"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "racing",
+								"synonyms": [
+									"cars",
+									"fastest"
+								]
+							}
+						}
+					]
+				}
+			],
 			"intents": [
 				{
 					"name": "HelloWorldIntent",
@@ -29,11 +63,21 @@
 						"new game",
 						"game new",
 						"start new game",
+						"start new {gameType} game",
 						"start a new game",
 						"begin a new game",
 						"begin new game",
 						"start from the begining of a new game",
-						"start from the beginning of a game"
+						"start from the begining of a new {gameType} game",
+						"start from the beginning of a game",
+						"new {gameType} game",
+						"new  {gameType}"
+					],
+					"slots": [
+						{
+							"name": "gameType",
+							"type": "GameTypeInput"
+						}
 					]
 				},
 				{

@@ -1,0 +1,24 @@
+[
+	{
+		"value": "adventure",
+		"synonyms": [
+			"adventure",
+			"rpg"
+		]
+	},
+	{
+		"value": "mystery",
+		"synonyms": [
+			"mystery",
+			"escape room"
+		]
+	},
+	{
+		"value": "racing",
+		"synonyms": [
+			"racing",
+			"cars",
+			"fastest"
+		]
+	}
+]

@@ -42,6 +42,26 @@
 	{
 		"data": [
 			{
+				"text": "start new ",
+				"userDefined": false
+			},
+			{
+				"text": "gameType",
+				"userDefined": true,
+				"alias": "gameType",
+				"meta": "@GameTypeInput"
+			},
+			{
+				"text": " game",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
 				"text": "start a new game",
 				"userDefined": false
 			}
@@ -82,8 +102,64 @@
 	{
 		"data": [
 			{
+				"text": "start from the begining of a new ",
+				"userDefined": false
+			},
+			{
+				"text": "gameType",
+				"userDefined": true,
+				"alias": "gameType",
+				"meta": "@GameTypeInput"
+			},
+			{
+				"text": " game",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
 				"text": "start from the beginning of a game",
 				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "new ",
+				"userDefined": false
+			},
+			{
+				"text": "gameType",
+				"userDefined": true,
+				"alias": "gameType",
+				"meta": "@GameTypeInput"
+			},
+			{
+				"text": " game",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "new  ",
+				"userDefined": false
+			},
+			{
+				"text": "gameType",
+				"userDefined": true,
+				"alias": "gameType",
+				"meta": "@GameTypeInput"
 			}
 		],
 		"isTemplate": false,

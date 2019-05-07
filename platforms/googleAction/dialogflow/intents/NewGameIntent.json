@@ -1,5 +1,17 @@
 {
 	"name": "NewGameIntent",
 	"auto": true,
-	"webhookUsed": true
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "gameType",
+					"value": "$gameType",
+					"dataType": "@GameTypeInput"
+				}
+			]
+		}
+	]
 }

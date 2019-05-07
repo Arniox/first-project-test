@@ -26,11 +26,21 @@
 				"new game",
 				"game new",
 				"start new game",
+				"start new {gameType} game",
 				"start a new game",
 				"begin a new game",
 				"begin new game",
 				"start from the begining of a new game",
-				"start from the beginning of a game"
+				"start from the begining of a new {gameType} game",
+				"start from the beginning of a game",
+				"new {gameType} game",
+				"new  {gameType}"
+			],
+			"inputs": [
+				{
+					"name": "gameType",
+					"type": "GameTypeInput"
+				}
 			]
 		},
 		{
@@ -49,6 +59,32 @@
 						"alexa": "AMAZON.US_FIRST_NAME",
 						"dialogflow": "@sys.given-name"
 					}
+				}
+			]
+		}
+	],
+	"inputTypes": [
+		{
+			"name": "GameTypeInput",
+			"values": [
+				{
+					"value": "adventure",
+					"synonyms": [
+						"rpg"
+					]
+				},
+				{
+					"value": "mystery",
+					"synonyms": [
+						"escape room"
+					]
+				},
+				{
+					"value": "racing",
+					"synonyms": [
+						"cars",
+						"fastest"
+					]
 				}
 			]
 		}
